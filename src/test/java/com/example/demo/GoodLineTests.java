@@ -64,7 +64,7 @@ public class GoodLineTests {
 
     // @PostMapping("/user")
     @Test
-    public void putTestStatus404() {
+    public void putTestStatus200() {
         CreationUserRequest createUserRequest = new CreationUserRequest(
                 1, "Ivan2000Ivan", "Иван", "", "ivan2000@gmail.com", "qwerty123", "88005553536", 1);
 
